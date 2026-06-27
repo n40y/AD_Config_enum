@@ -2,7 +2,7 @@
 
 Outil d'audit de configurations Active Directory. Se connecte à un contrôleur de domaine via LDAP, énumère les comptes utilisateurs et détecte les mauvaises configurations de sécurité courantes (Kerberoasting, AS-REP Roasting, délégation non contrainte, Shadow Credentials, etc.), avec un score de risque et un export JSON.
 
-![AD_Config_enum en action](images/ad_config_enum_terminal_mockup.html)
+![AD_Config_enum en action](images/AD_Config_enum_banner_v2.svg)
 
 
 ## Sommaire
