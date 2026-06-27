@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "generated_at": "2026-06-27T01:29:49.621081",
+    "tool": "AD_Config_enum v1.0",
+    "author": "n40y"
+  },
+  "accounts": [
+    {
+      "user": "Administrator",
+      "score": 100,
+      "level": "CRITIQUE",
+      "findings": [
+        "no_pwd_expiry",
+        "asrep_roastable",
+        "unconstrained_deleg",
+        "des_only",
+        "no_pwd_required",
+        "pwd_in_description",
+        "admin_count"
+      ]
+    },
+    {
+      "user": "svc_sql",
+      "score": 55,
+      "level": "ÉLEVÉ",
+      "findings": [
+        "pwd_in_description",
+        "no_pwd_expiry",
+        "kerberoastable"
+      ]
+    },
+    {
+      "user": "svc_backup",
+      "score": 38,
+      "level": "MOYEN",
+      "findings": [
+        "kerberoastable",
+        "no_pwd_expiry",
+        "admin_count"
+      ]
+    },
+    {
+      "user": "svc_web",
+      "score": 35,
+      "level": "MOYEN",
+      "findings": [
+        "shadow_credentials",
+        "unconstrained_deleg"
+      ]
+    },
+    {
+      "user": "guest",
+      "score": 20,
+      "level": "MOYEN",
+      "findings": [
+        "account_disabled",
+        "no_pwd_required"
+      ]
+    },
+    {
+      "user": "j.dupont",
+      "score": 15,
+      "level": "FAIBLE",
+      "findings": [
+        "no_pwd_expiry"
+      ]
+    },
+    {
+      "user": "m.martin",
+      "score": 0,
+      "level": "FAIBLE",
+      "findings": []
+    }
+  ]
+}
